@@ -15,12 +15,5 @@
  Преследование врагами Пэкмана:
    - Сценарий работы: Враги догоняют Пэкмана, при касании снимают ему жизнь
 
-@startuml
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
-
-Alice -> Bob: Another authentication Request
-Alice <-- Bob: Another authentication Response
-@enduml
-
+![Диаграмма использования](diagrams/use.png)
 
