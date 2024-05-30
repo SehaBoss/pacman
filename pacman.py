@@ -60,7 +60,7 @@ startup_counter = 0
 lives = 3
 game_over = False
 game_won = False
-level = [
+board = [
 [6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5],
 [3, 6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 3],
 [3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 3],
@@ -95,7 +95,7 @@ level = [
 [3, 7, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 8, 3],
 [7, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 8]
          ]
-
+level = board.copy()
 
 
 class Ghost:
@@ -1210,7 +1210,7 @@ while run:
                 pink_dead = False
                 score = 0
                 lives = 3
-                level = copy.deepcopy(boards)
+                level = board.copy()
                 game_over = False
                 game_won = False
 
