@@ -21,7 +21,7 @@ jobs:
 
     - name: Run unit tests
       run: |
-        coverage run -m unittest discover
+        coverage run -m unittest discover --start-directory tests
         coverage xml
 
     - name: Coveralls
