@@ -911,7 +911,6 @@ def get_targets(blink_x, blink_y, ink_x, ink_y, pink_x, pink_y, clyd_x, clyd_y):
             clyd_target = return_target
     return [blink_target, ink_target, pink_target, clyd_target]
 
-
 run = True
 while run:
     timer.tick(fps)
@@ -1248,5 +1247,9 @@ while run:
         orange_dead = False
 
     pygame.display.flip()
+
+    if __name__ != "__main__":
+        run = False
+
 pygame.quit()
 

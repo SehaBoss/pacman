@@ -1,4 +1,5 @@
 import unittest
+import pytest
 from unittest.mock import patch
 from pacman import check_collisions
 
@@ -18,3 +19,6 @@ class test_orb_and_score(unittest.TestCase):
     @patch('pacman.center_y', 4)
     def test_bonus_orb(self):
         assert check_collisions(0, False, 666, [True,True,True,True]) == (50, True, 0, [False,False,False,False])
+
+if __name__ == "__main__":
+    pytest.main()

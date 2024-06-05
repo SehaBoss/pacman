@@ -1,3 +1,4 @@
+import pytest
 import unittest
 from unittest.mock import patch
 from pacman import get_targets
@@ -76,3 +77,6 @@ class test_target(unittest.TestCase):
     @patch('pacman.orange.dead', True)
     def test_dead_not_powerup(self):
         assert get_targets(0,0,0,0,0,0,0,0) == [(380, 400),(380, 400),(380, 400),(380, 400)]
+
+if __name__ == "__main__":
+    pytest.main()   
