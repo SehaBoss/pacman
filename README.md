@@ -1,3 +1,7 @@
+[![CI/CD GitHub Actions](https://github.com/SehaBoss/pacman/actions/workflows/run.yml/badge.svg)](https://github.com/SehaBoss/pacman/actions/workflows/run.yml)
+[![Coverage Status](https://coveralls.io/repos/SehaBoss/pacman/badge.svg?branch=main)](https://coveralls.io/github/SehaBoss/pacman?branch=main)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=SehaBoss_pacman&metric=bugs)](https://sonarcloud.io/summary/new_code?id=SehaBoss_pacman)
+
 # Игра Pacman
 ### Алгоритмы:
  Управление Пэкманом:
