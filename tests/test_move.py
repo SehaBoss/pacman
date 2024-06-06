@@ -40,6 +40,3 @@ class test_move_pacman(unittest.TestCase):
     def test_move_down_negative(self):
         assert move_player(450, 663) == (450, 663)
 
-if __name__ == "__main__":
-    pytest.main()
-
