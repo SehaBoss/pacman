@@ -1,5 +1,5 @@
 [![CI/CD GitHub Actions](https://github.com/SehaBoss/pacman/actions/workflows/run.yml/badge.svg)](https://github.com/SehaBoss/pacman/actions/workflows/run.yml)
-[![Coverage Status](https://coveralls.io/repos/SehaBoss/pacman/badge.svg?branch=main)](https://coveralls.io/github/SehaBoss/pacman?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/SehaBoss/pacman/badge.svg?branch=master)](https://coveralls.io/github/SehaBoss/pacman?branch=master)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=SehaBoss_pacman&metric=bugs)](https://sonarcloud.io/summary/new_code?id=SehaBoss_pacman)
 
 # Игра Pacman
