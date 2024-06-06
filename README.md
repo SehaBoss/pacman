@@ -2,6 +2,8 @@
 [![Coverage Status](https://coveralls.io/repos/github/SehaBoss/pacman/badge.svg?branch=master)](https://coveralls.io/github/SehaBoss/pacman?branch=master)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=sehaboss_pacman&metric=bugs)](https://sonarcloud.io/summary/new_code?id=sehaboss_pacman)
 
+![snake](./docs/pacman_screen.png)
+
 # Игра Pacman
 ### Алгоритмы:
  Управление Пэкманом:
